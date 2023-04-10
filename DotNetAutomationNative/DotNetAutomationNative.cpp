@@ -7,12 +7,13 @@
 #include <string>
 #include "../AppPartOps/Journaling_Session.h"
 #include "../AppPartOps/Journaling_Part.h"
+#include "../Core/Core.h"
 
 
 
 extern void DotNet_automationapi_Session_InitializeSession(void)
 {
-	// TODO 
+	initializeProduct();
 }
 
 
